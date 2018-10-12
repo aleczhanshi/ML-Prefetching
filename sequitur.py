@@ -23,7 +23,6 @@ def convert_to_one_hot(array):
     one_hot[range(len(array)), array] = 1
     return one_hot
 
-
 def preprocess(filename, FUTURE_WINDOW = 100):
     pc_in = []
     page_in = []
